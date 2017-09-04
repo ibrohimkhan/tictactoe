@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Barrio|Nova+Square|Schoolbell|Special+Elite');
+
+body {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    
+    text-align: center;  
+    margin: 0;
+    background-color: lightskyblue;    
+}
+
+body > header {
+    font-family: 'Barrio', cursive;
+    font-size: 1.5em;
+}
+
+body > footer {
+    font-family: 'Schoolbell', cursive;
+}
+
+body > header, body > footer {
+    color: white;
+}
+
+main {        
+    margin: auto auto;  
+    padding: 2rem;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+}
+
+.greeting header { 
+    font-family: 'Special Elite', cursive;
+    font-size: 19pt;   
+    margin-bottom: 2rem;
+}
+
+.greeting .rule {
+    font-family: 'Special Elite', cursive;
+    font-size: 19pt;
+    margin-bottom: 2rem;
+} 
+
+.greeting .selection {
+    font-family: 'Nova Square', cursive;
+    font-size: 19pt;
+    color: dodgerblue;
+}
+
+.greeting .rule span, .greeting .selection span {
+    color: red;
+    font-weight: bold;
+}
+
+.greeting .selection span {
+    cursor: pointer;
+}
+
+main .game {
+    display: none;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 3px;
+}
+
+.game .cell {
+    background-color: mediumseagreen;
+    font-family: 'Special Elite', cursive;
+    font-size: 30pt;
+    color: whitesmoke;
+    cursor: pointer;
+    width: 100px;
+    height: 35px;
+    padding: 30px 0;
+}
+
+.info {
+    display: none;
+    font-family: 'Barrio', cursive;
+    font-size: 1.2em;   
+    color: dodgerblue;
+    margin-top: -2rem;
+}

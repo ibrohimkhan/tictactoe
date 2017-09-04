@@ -1,0 +1,11 @@
+{
+  "name": "tictactoe",
+  "version": "1.0.0",
+  "description": "a game",
+  "main": "app.js",
+  "author": "ibrohim kholmatov",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^3.19.0"
+  }
+}
